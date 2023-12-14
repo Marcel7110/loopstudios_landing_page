@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+    <title>Loopstudios</title>
+</head>
+<body>
+    <header class="banner">
+        <nav class="max-size navbar">
+            <img src="./images/logo.svg" alt="logo" class="logo"/>
+            <button class="btn-menu" onclick="handleMenu()">
+                <img src="./images/icon-hamburger.svg"/>
+            </button>  
+            <menu class="menu" id="nav">   
+                <button class="btn-close" onclick="handleMenu()"><img src="./images/icon-close.svg"/></button>   
+                <a href="#">About</a>
+                <a href="#">Careers</a>
+                <a href="#">Events</a>
+                <a href="#">Products</a>
+                <a href="#">Support</a>
+            </menu>
+        </nav>
+        <section class="max-size">
+            <h1 class="title">
+                IMMPRESIVE<br/>
+                EXPERIENCES<br/>
+                THAT DELIVER
+            </h1>
+        </section>
+    </header>
+
+    <main class="max-size">
+        <section class="intro">
+            <picture>
+                <source media="(max-width: 860px)" srcset="./images/mobile/image-interactive.jpg"/>
+                <img src="./images/desktop/image-interactive.jpg" class="intro-image"/>
+            </picture>
+            <article>
+                <h2>THE LEADER IN INTERACTIVE VR</h2>
+                <p>Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our awar-winning creations have transformed businesses through digital experiences that bind to their brand.</p>
+            </article>
+        </section>
+        <section class="creations">
+            <h2>OUR CREATIONS</h2>
+            <a href="#" class="btn">SEE ALL</a>
+            <div id="movie-box">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="max-size footer-box">
+            <img src="./images/logo.svg" alt="logo" class="footer-logo"/>
+            <div class="socials">
+                <a href='#'><img src="./images/icon-instagram.svg" alt="instagram"/></a>
+                <a href='#'><img src="./images/icon-facebook.svg" alt="facebook"/></a>
+                <a href='#'><img src="./images/icon-pinterest.svg" alt="pinterest"/></a>
+                <a href='#'><img src="./images/icon-twitter.svg" alt="twitter"/></a>
+            </div>
+            <menu class="footer-menu">
+                <a href="#">About</a>
+                <a href="#">Careers</a>
+                <a href="#">Events</a>
+                <a href="#">Products</a>
+                <a href="#">Support</a>
+            </menu>
+            <p>2021 Loopstudios. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
